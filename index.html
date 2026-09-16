@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laberinto ASCII</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icono.svg" type="image/svg+xml">
+</head>
+<body>
+   <pre>
+         ##   ##  ######  ######  ######          ######  ######  ######  ####  ####
+         ### ###  ##  ##     ##   ##              ##  ##  ##      ##       ##    ##
+         ## # ##  ######    ##    ######  ######  ######  ######  ##       ##    ##
+         ##   ##  ##  ##   ##     ##              ##  ##      ##  ##       ##    ##
+         ##   ##  ##  ##  ######  ######          ##  ##  ######  ######  ####  ####
+         </pre>
+    <div id="level-display">Nivel: 1</div>
+    <div id="modal">
+        <div id="modal-content">
+            <p id="modal-message"></p>
+            <button id="modal-close">Cerrar</button>
+        </div>
+    </div>
+    <div id="maze-container">
+        <div id="start-container">
+            <button id="start-button">Iniciar Juego</button>
+        </div>
+    </div>
+    <p id="timer">Tiempo restante: <span id="time">60</span> segundos</p>
+    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 HÉCTOR GDF</p>
+    </footer>
+</body>
+</html>
